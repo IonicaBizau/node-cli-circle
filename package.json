@@ -1,0 +1,34 @@
+{
+  "name": "cli-circle",
+  "version": "1.0.0",
+  "description": "Generate ASCII circles with NodeJS.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "cli-graph": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-cli-circle.git"
+  },
+  "keywords": [
+    "cirlce",
+    "ascii",
+    "cli"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-cli-circle/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-cli-circle"
+}

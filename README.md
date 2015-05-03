@@ -13,7 +13,7 @@ Creates a new instance of `CliCircle`.
 
 #### Params
 - **Number** `radius`: The radius value.
-- **String** `chr`: The character used for drawing the circle (default: `"x"`).
+- **String** `chr`: The character used for drawing the circle (default: `"."`).
 
 #### Return
 - **CliCircle** The `CliCircle` isntance.

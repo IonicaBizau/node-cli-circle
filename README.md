@@ -1,3 +1,5 @@
+![CLI Circle](http://i.imgur.com/MzPIRPD.png)
+
 # `cli-circle`
 Generate ASCII circles with NodeJS.
 

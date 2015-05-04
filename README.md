@@ -1,10 +1,18 @@
-# cli-circle
+# `cli-circle`
 Generate ASCII circles with NodeJS.
 
 ## Installation
+Run the following commands to download and install the application:
 
 ```sh
 $ npm install cli-circle
+```
+
+## Example
+```js
+var Circle = require("cli-circle");
+
+console.log(Circle(100).toString());
 ```
 
 ## Documentation
@@ -16,7 +24,11 @@ Creates a new instance of `CliCircle`.
 - **String** `chr`: The character used for drawing the circle (default: `"."`).
 
 #### Return
-- **CliCircle** The `CliCircle` isntance.
+- **CliCircle** The `CliCircle` instance containing:
+ - `radius` (Number): The circle radius.
+ - `diameter` (Number): The circle diameter.
+ - `chr` (String): The point character.
+ - `graph` (CliGraph): The graph instance.
 
 ### `toString()`
 Stringifies a circle.

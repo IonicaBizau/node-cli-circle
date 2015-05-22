@@ -18,12 +18,13 @@ console.log(Circle(100).toString());
 ```
 
 ## Documentation
-### `CliCircle(radius, chr)`
+### `CliCircle(radius, chr, opts)`
 Creates a new instance of `CliCircle`.
 
 #### Params
 - **Number** `radius`: The radius value.
 - **String** `chr`: The character used for drawing the circle (default: `"."`).
+- **Object** `opts`: Options passed to the `CliGraph` constructor.
 
 #### Return
 - **CliCircle** The `CliCircle` instance containing:
@@ -37,6 +38,7 @@ Stringifies a circle.
 
 #### Return
 - **String** The stringified circle.
+
 
 ## How to contribute
 1. File an issue in the repository, using the bug tracker, describing the

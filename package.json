@@ -8,11 +8,11 @@
     "test": "test"
   },
   "dependencies": {
-    "cli-graph": "^2.0.1",
-    "ul": "2.1.0"
+    "cli-graph": "^3.0.0",
+    "ul": "^5.0.0"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.2.5"
   },
   "scripts": {
     "test": "mocha test"

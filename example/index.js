@@ -1,3 +1,17 @@
+// Dependencies
 var Circle = require("../lib");
 
-console.log(Circle(50).toString());
+// Output the circle
+console.log(Circle(5).toString());
+// =>       • • • • •
+//        •           •
+//      •               •
+//    •                   •
+//    •                   •
+//    •                   •
+//    •                   •
+//    •                   •
+//      •               •
+//        •           •
+//          • • • • •
+//

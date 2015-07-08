@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-cli-circle/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-cli-circle"
+  "homepage": "https://github.com/IonicaBizau/node-cli-circle",
+  "blah": {
+    "h_img": "http://i.imgur.com/MzPIRPD.png"
+  }
 }

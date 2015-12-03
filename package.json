@@ -1,6 +1,6 @@
 {
   "name": "cli-circle",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Generate ASCII circles with NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -27,7 +27,7 @@
     "cli"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-cli-circle/issues"
   },

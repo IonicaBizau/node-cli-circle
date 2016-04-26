@@ -1,16 +1,20 @@
+
 [![cli-circle](http://i.imgur.com/MzPIRPD.png)](#)
 
 # cli-circle [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Travis](https://img.shields.io/travis/IonicaBizau/node-cli-circle.svg)](https://travis-ci.org/IonicaBizau/node-cli-circle/) [![Version](https://img.shields.io/npm/v/cli-circle.svg)](https://www.npmjs.com/package/cli-circle) [![Downloads](https://img.shields.io/npm/dt/cli-circle.svg)](https://www.npmjs.com/package/cli-circle) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Generate ASCII circles with NodeJS.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save cli-circle
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 // Dependencies
@@ -32,7 +36,8 @@ console.log(Circle(5).toString());
 //
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `CliCircle(radius, chr, opts)`
 Creates a new instance of `CliCircle`.
@@ -55,15 +60,18 @@ Stringifies a circle.
 #### Return
 - **String** The stringified circle.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`cli-pie`](https://github.com/IonicaBizau/node-cli-pie)
 
-## License
+ - [`cli-pie`](https://github.com/IonicaBizau/node-cli-pie)—Generate pie charts in terminal and text mode.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 

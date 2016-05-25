@@ -1,8 +1,9 @@
-// Dependencies
-var Circle = require("../lib");
+"use strict";
+
+const circle = require("../lib");
 
 // Output the circle
-console.log(Circle(5).toString());
+console.log(circle(5).toString());
 // =>       • • • • •
 //        •           •
 //      •               •

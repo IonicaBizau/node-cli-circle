@@ -19,11 +19,10 @@ $ npm i --save cli-circle
 
 
 ```js
-// Dependencies
-var Circle = require("cli-circle");
+const circle = require("cli-circle");
 
 // Output the circle
-console.log(Circle(5).toString());
+console.log(circle(5).toString());
 // =>       • • • • •
 //        •           •
 //      •               •

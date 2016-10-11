@@ -1,6 +1,6 @@
 {
   "name": "cli-circle",
-  "version": "3.2.5",
+  "version": "3.2.6",
   "description": "Generate ASCII circles with NodeJS.",
   "main": "lib/index.js",
   "directories": {
@@ -40,6 +40,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
